@@ -1,5 +1,8 @@
 package com.datastructure.problems.BinarySearch;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * nums[i] > n , find smallest upper bound index
  */
@@ -16,6 +19,7 @@ public class UpperBoundIndex {
             } else
                 low = mid + 1;
         }
+
         return ans;
     }
 

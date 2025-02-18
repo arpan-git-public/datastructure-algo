@@ -46,8 +46,8 @@ public class CycleDetectionDFS {
     }
     public static void main(String[] args) {
         var obj = new CycleDetectionDFS();
-        int[][] adj = {{1},{0,2,3},{1,3,4},{1,3},{2}};
-        //int[][] adj = {{1},{0,2,3},{1,4},{1},{2}};
+       // int[][] adj = {{1},{0,2,3},{1,3,4},{1,3},{2}};
+        int[][] adj = {{1},{0,2,3},{1,4},{1},{2}};
         System.out.println(obj.detectCycle(5,adj));
     }
 }

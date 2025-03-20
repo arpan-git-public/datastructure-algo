@@ -4,7 +4,7 @@ package com.datastructure.problems.DP;
  *  Given an array of integer pick any two numbers which are non-adjacent and take maximum sum of it.
  *
  *  input = arr : {1,4,9,10}
- *  output= 14[
+ *  output= 14
  *
  */
 public class MaximumSubsequenceSum {
